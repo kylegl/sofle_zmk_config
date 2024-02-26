@@ -94,7 +94,7 @@
 			bindings = <
 				&bt BT_CLR 		  &bt BT_SEL 0 	&bt BT_SEL 1    &bt BT_SEL 2    &bt BT_SEL 3 	  &bt BT_SEL 4                                  &trans          &trans    		&trans   &trans    		&trans  &tog 4
 				&kp LC(LA(N1))  &kp LC(LA(Q)) &td1            &kp LC(LA(E))   &kp LC(LA(R))   &kp LC(LA(T))                                 &kp PG_UP       &kp LC(LBKT)	&kp UP   &kp LC(RBKT)	&kp N0  &trans
-				&kp LC(LA(H))   &kp LC(LA(A)) &kp LC(LA(S))    &kp LC(LA(D))   &kp LC(LA(N0))	&td2                                 &kp PG_DN       &kp LEFT  		&kp DOWN &kp RIGHT 		&kp DEL &kp BSPC
+				&kp LC(LA(H))   &kp LC(LA(A)) &kp LC(LA(S))   &kp LC(LA(D))   &kp LC(LA(N0))	&td2                                          &kp PG_DN       &kp LEFT  		&kp DOWN &kp RIGHT 		&kp DEL &kp BSPC
 				&kp LC(LA(N3))  &kp LC(LA(Z)) &kp LC(LA(X))   &kp LC(LA(C))   &kp LC(LA(V))   &kp LC(LA(B)) &kp LC(LA(DEL)) &trans          &trans          &kp HOME  		&trans   &kp END   		&trans  &trans
 																		  &trans          &trans          &kp LC(LA(N5))  &trans        &trans          &kp LC(LA(N9))  &kp LC(LA(N8))  &kp RET   		&trans   &trans
 			>;
@@ -108,11 +108,11 @@
     //Adds a numpad under the right hand while held.
     numpad_layer {
       bindings = <
-        &kp MINUS   &kp N1   	&kp N2    &kp N3    &kp N4    &kp N5                     									&kp KP_LPAR  	&kp N7       	&kp N8    &kp N9     &kp KP_MULTIPLY &kp KP_RPAR
-        &kp CAPS    &trans   	&trans    &trans    &trans    &trans                     									&kp KP_NUM   	&kp N4       	&kp N5    &kp N6     &kp KP_MINUS    &kp DEL
-        &kp ESC     &trans   	&trans    &trans    &trans    &trans                     									&kp KP_CLEAR 	&kp N1       	&kp N2    &kp N3     &kp KP_PLUS     &kp SQT
-        &kp LSHFT   &trans   	&trans    &trans    &trans    &trans 					&kp LC(C) 				&kp LC(V) &kp KP_ENTER 	&kp KP_COMMA 	&kp N0    &kp KP_DOT &kp KP_DIVIDE   &kp RSHFT
-  														&kp LCTRL	&kp LGUI  &kp LALT	&lt CODE SPACE 	&lt NUMP RETURN		&kp RET  	&kp RBRC     	&kp LC(S) 		&kp LC(Z) &trans
+        &kp ESC   &kp N1  &kp N2    &kp N3    &kp N4    &kp N5                     									&kp KP_LPAR  	&kp N7       	&kp N8    &kp N9     &kp KP_MULTIPLY &kp KP_RPAR
+        &kp GRAVE &trans  &trans    &trans    &trans    &trans                     									&kp KP_NUM   	&kp N4       	&kp N5    &kp N6     &kp KP_MINUS    &kp DEL
+        &kp TAB   &trans  &trans    &trans    &trans    &trans                     									&kp KP_CLEAR 	&kp N1       	&kp N2    &kp N3     &kp KP_PLUS     &kp SQT
+        &kp LSHFT &trans  &trans    &trans    &trans    &trans 					&kp LC(C) 				&kp LC(V) &kp KP_ENTER 	&kp KP_COMMA 	&kp N0    &kp KP_DOT &kp KP_DIVIDE   &kp RSHFT
+  												&kp LCTRL	&kp LGUI  &kp LALT	&lt CODE SPACE 	&lt NUMP RETURN		&kp RET  	&kp RBRC     	&kp LC(S) 		&kp LC(Z) &trans
       >;
 
       sensor-bindings = <
@@ -123,11 +123,11 @@
 
 		game_layer {
 			bindings = <
-				&kp ESC     &kp N1 	&kp N2   	&kp N3   &kp N4    &kp N5                      			        &kp N6 		&kp N7    &kp N8    &kp N9   &kp N0   &tog 4
-				&kp GRAVE   &kp Q  	&kp W    	&kp E    &kp R     &kp T                       			        &kp Y  		&kp U     &kp I     &kp O    &kp P    &kp BSPC
-				&kp TAB     &kp A  	&kp S    	&kp D    &kp F     &kp G                       			        &kp H  	 	&kp J     &kp K     &kp L    &kp SEMI &kp SQT
-				&kp LSHFT   &kp Z  	&kp X    	&kp C    &kp V     &kp B  	        &bootloader &kp C_MUTE 	&kp N  	  &kp M     &kp COMMA &kp DOT  &kp FSLH &kp RSHFT
-														&sys_reset    &kp LALT &kp LCTRL &lt CODE RETURN  &kp SPACE   &kp SPACE   &kp RET 	&kp RCTRL &kp RALT  &sys_reset
+				&kp ESC     &kp N1 	&kp N2   	  &kp N3   &kp N4    &kp N5                      			          &kp N6 		&kp N7    &kp N8    &kp N9   &kp N0   &tog 4
+				&kp GRAVE   &kp Q  	&kp W    	  &kp E    &kp R     &kp T                       			          &kp Y  		&kp U     &kp I     &kp O    &kp P    &kp BSPC
+				&kp TAB     &kp A  	&kp S    	  &kp D    &kp F     &kp G                       			          &kp H  	 	&kp J     &kp K     &kp L    &kp SEMI &kp SQT
+				&kp LSHFT   &kp Z  	&kp X    	  &kp C    &kp V     &kp B            &bootloader   &kp C_MUTE 	&kp N  	  &kp M     &kp COMMA &kp DOT  &kp FSLH &kp RSHFT
+														&sys_reset  &kp LALT &kp LCTRL &lt NUMP RETURN  &kp SPACE     &kp SPACE   &kp RET 	&kp RCTRL &kp RALT  &sys_reset
 			>;
 
 				sensor-bindings = <
