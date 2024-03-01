@@ -13,6 +13,10 @@
     tapping-term-ms = <190>;
 };
 
+&sensors {
+  triggers-per-rotation = <48>;
+};
+
 #define DEFAULT 0
 #define CODE 1
 #define NAVI 2
