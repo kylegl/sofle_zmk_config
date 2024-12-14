@@ -71,7 +71,7 @@
 				&kp GRAVE   &kp Q  	&kp W    	&kp E    &kp R     &kp T                       									&kp Y  				&kp U     &kp I     &kp O    &kp P    &kp BSPC
 				&kp TAB     &kp A  	&kp S    	&kp D    &kp F     &kp G                       									&kp H  	 			&kp J     &kp K     &kp L    &kp SEMI &kp SQT
 				&kp LSHFT   &kp Z  	&kp X    	&kp C    &kp V     &kp B  				&kp C_PP  		&kp C_MUTE 		  &kp N  	 			&kp M     &kp COMMA &kp DOT  &kp FSLH &kp RSHFT
-														&kp LGUI  &kp LALT &kp LCTRL &lt CODE SPACE &lt NAVI RET  &lt NUMP SPACE  &lt NAVI RET 	&kp RCTRL &kp RALT  &kp RGUI
+														&kp LGUI  &kp LALT &kp LCTRL &lt CODE SPACE &lt NAVI RET  &kp SPACE       &lt NAVI RET 	&kp RCTRL &kp RALT  &kp RGUI
 			>;
 
 				sensor-bindings = <
@@ -132,7 +132,7 @@
 				&kp GRAVE   &kp Q  	&kp W    	  &kp E    &kp R     &kp T                       			          &kp Y  		&kp U     &kp UP    &kp O     &kp P    &kp BSPC
 				&kp TAB     &kp A  	&kp S    	  &kp D    &kp F     &kp G                       			          &kp H  	 	&kp LEFT  &kp DOWN  &kp RIGHT &kp SEMI &kp SQT
 				&kp LSHFT   &kp Z  	&kp X    	  &kp C    &kp V     &kp B    &bootloader   &kp C_MUTE 	&kp N  	&kp M     &kp COMMA &kp DOT   &kp FSLH &kp RSHFT
-														&sys_reset  &kp LALT &kp LCTRL &tog 5  &kp SPACE      &kp SPACE   &kp RET &kp RCTRL &kp RALT  &tog 4
+														&sys_reset  &kp LALT &kp LCTRL &tog 5  &kp SPACE      &kp SPACE   &kp RET &kp RCTRL &kp RALT  &to 0
 			>;
 
 				sensor-bindings = <
@@ -147,7 +147,7 @@
 				&kp GRAVE   &kp Q  	&kp W    	  &kp E    &kp R     &kp T                       			          &kp Y  		&kp U     &kp I     &kp O     &kp P    &kp BSPC
 				&kp TAB     &kp A  	&kp S    	  &kp D    &kp F     &kp G                       			          &kp H  	 	&kp J     &kp K     &kp L     &kp SEMI &kp SQT
 				&kp LSHFT   &kp Z  	&kp X    	  &kp C    &kp V     &kp B    &bootloader   &kp C_MUTE 	&kp N  	&kp M     &kp COMMA &kp DOT   &kp FSLH &kp RSHFT
-														&kp LGUI    &kp LALT &kp LCTRL &tog 5  &kp SPACE     &kp SPACE   &kp RET &kp RCTRL &kp RALT  &tog 4
+														&kp LGUI    &kp LALT &kp LCTRL &tog 5  &kp SPACE     &kp SPACE   &kp RET &kp RCTRL &kp RALT  &to 0
 			>;
 
 				sensor-bindings = <
